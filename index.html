@@ -5,13 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kasper | Template Two</title>
-    <link rel="shortcut icon" href="/images/caffeine_social_network_communication_interaction_internet_icon_192232.ico" type="image/x-icon">
-    <link rel="icon" href="/images/caffeine_social_network_communication_interaction_internet_icon_192232.ico" type="image/x-icon" sizes="192x192">
-    <link rel="appel-touch-icon" href="/images/caffeine_social_network_communication_interaction_internet_icon_192232.ico" type="image/x-icon" sizes="180x180">
+    <link
+      rel="shortcut icon"
+      href="/images/caffeine_social_network_communication_interaction_internet_icon_192232.ico"
+      type="image/x-icon"
+    />
+
+    <link
+      rel="icon"
+      href="/images/caffeine_social_network_communication_interaction_internet_icon_192232.ico"
+      type="image/x-icon"
+      sizes="192x192"
+    />
+    <link
+      rel="appel-touch-icon"
+      href="/images/caffeine_social_network_communication_interaction_internet_icon_192232.ico"
+      type="image/x-icon"
+      sizes="180x180"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/css/normalize.css" />
@@ -19,15 +34,39 @@
     <link rel="stylesheet" href="/css/kasper.css" />
   </head>
   <body>
+    <!-- start preloader -->
+    <div class="preloader">
+      <div class="wheel first-w">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+      </div>
+      <div class="wheel second-w">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+      </div>
+      <div class="wheel thirt-w">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+      </div>
+      <div class="overlay"></div>
+    </div>
+    <!-- end preloader -->
     <!-- start header  -->
     <header>
       <div class="container">
         <a class="logo" href=""> <img src="/images/logo.png" alt="" /></a>
         <nav>
-          <label for="id-show-menu">
-            <i class="fas fa-bars toggle-menu"></i>
-          </label>
-          <input type="checkbox" id="id-show-menu" role="button" class="icon" />
+          <div class="menuBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
           <ul>
             <li><a class="active" href="#HOME">HOME</a></li>
             <li><a href="#SERVICES">SERVICES</a></li>
@@ -36,103 +75,135 @@
             <li><a href="#PRICING">PRICING</a></li>
             <li><a href="#CONTACT">CONTACT</a></li>
           </ul>
-          <div class="form">
-            <i class="fas fa-search"></i>
-          </div>
         </nav>
       </div>
     </header>
     <!-- end header -->
-    <!-- start mix  -->
-    <div class="mix">
-      <!-- start landing -->
-      <div class="landing" id="HOME">
-        <div class="text">
-          <div class="content">
-            <h2>
-              HELLO WORLD! <br />
-              WE ARE KASPER, WE MAKE ART.
-            </h2>
-            <p>
-              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-              Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at
-              sem. Mauris blandit aliquet elit, eget tincidunt.
-            </p>
+    <!-- start landing -->
+    <div class="landing" id="HOME">
+      <div class="slides-container">
+        <div class="slide">
+          <div class="text">
+            <div class="content">
+              <h2>
+                HELLO WORLD! <br />
+                WE ARE KASPER, WE MAKE ART.
+              </h2>
+              <p>
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at
+                sem. Mauris blandit aliquet elit, eget tincidunt.
+              </p>
+            </div>
           </div>
         </div>
-        <i class="fas fa-angle-left change-background left fa-2x"></i>
-        <i class="fas fa-angle-right change-background right fa-2x"></i>
-        <ul class="bullets">
-          <li></li>
-          <li class="active"></li>
-          <li></li>
-        </ul>
+        <div class="slide">
+          <div class="text">
+            <div class="content">
+              <h2>
+                HELLO WORLD! <br />
+                WE ARE KASPER, WE MAKE ART.
+              </h2>
+              <p>
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at
+                sem. Mauris blandit aliquet elit, eget tincidunt.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="text">
+            <div class="content">
+              <h2>
+                HELLO WORLD! <br />
+                WE ARE KASPER, WE MAKE ART.
+              </h2>
+              <p>
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at
+                sem. Mauris blandit aliquet elit, eget tincidunt.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-      <!-- end landing -->
-      <!-- start service -->
-      <div class="services" id="SERVICES">
-        <div class="container">
+
+      <i class="fas fa-angle-left change-background left fa-2x"></i>
+      <i class="fas fa-angle-right change-background right fa-2x"></i>
+      <ul class="bullets">
+        <li data-index="-1"></li>
+        <li data-index="0" class="active"></li>
+        <li data-index="1"></li>
+      </ul>
+    </div>
+    <!-- end landing -->
+    <!-- start service -->
+    <div class="services" id="SERVICES">
+      <div class="container">
+        <div class="specialHeaderCon">
           <h2 class="special-heading">SERVICES</h2>
           <p>
             Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
             Mauris blandit aliquet elit, eget tincidunt.
           </p>
-          <div class="services-content">
-            <div class="col">
-              <div class="serv">
-                <i class="fas fa-desktop fa-3x"></i>
-                <div class="text">
-                  <h3>Vorem amet intuitive</h3>
-                  <p>
-                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at
-                    sem. Mauris blandit aliquet elit, eget tincidunt nibh
-                    pulvinar a. Curabitur aliquet quam.
-                  </p>
-                </div>
-              </div>
-              <div class="serv">
-                <i class="fas fa-cog fa-3x"></i>
-                <div class="text">
-                  <h3>Vorem amet intuitive</h3>
-                  <p>
-                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at
-                    sem. Mauris blandit aliquet elit, eget tincidunt nibh
-                    pulvinar a. Curabitur aliquet quam.
-                  </p>
-                </div>
+        </div>
+        <div class="services-content">
+          <div class="col">
+            <div class="serv">
+              <i class="fas fa-desktop fa-3x"></i>
+              <div class="text">
+                <h3>Vorem amet intuitive</h3>
+                <p>
+                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                  sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar
+                  a. Curabitur aliquet quam.
+                </p>
               </div>
             </div>
-            <div class="col">
-              <div class="serv">
-                <i class="fas fa-pencil-ruler fa-3x"></i>
-                <div class="text">
-                  <h3>Vorem amet intuitive</h3>
-                  <p>
-                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at
-                    sem. Mauris blandit aliquet elit, eget tincidunt nibh
-                    pulvinar a. Curabitur aliquet quam.
-                  </p>
-                </div>
+            <div class="serv">
+              <i class="fas fa-cog fa-3x"></i>
+              <div class="text">
+                <h3>Vorem amet intuitive</h3>
+                <p>
+                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                  sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar
+                  a. Curabitur aliquet quam.
+                </p>
               </div>
-              <div class="serv">
-                <i class="fas fa-camera fa-3x"></i>
-                <div class="text">
-                  <h3>Vorem amet intuitive</h3>
-                  <p>
-                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at
-                    sem. Mauris blandit aliquet elit, eget tincidunt nibh
-                    pulvinar a. Curabitur aliquet quam.
-                  </p>
-                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="serv">
+              <i class="fas fa-pencil-ruler fa-3x"></i>
+              <div class="text">
+                <h3>Vorem amet intuitive</h3>
+                <p>
+                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                  sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar
+                  a. Curabitur aliquet quam.
+                </p>
+              </div>
+            </div>
+            <div class="serv">
+              <i class="fas fa-camera fa-3x"></i>
+              <div class="text">
+                <h3>Vorem amet intuitive</h3>
+                <p>
+                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                  sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar
+                  a. Curabitur aliquet quam.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- end service -->
     </div>
-    <!-- end mix  -->
+    <!-- end service -->
     <!-- start design -->
     <div class="design" id="DESIGN">
       <div class="text">
@@ -152,99 +223,33 @@
     <!-- start portfolio -->
     <div class="portfolio" id="PORTFOLIO">
       <div class="container">
-        <h2 class="special-heading">PORTFOLIO</h2>
-        <p>
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-          Mauris blandit aliquet elit, eget tincidunt.
-        </p>
-        <ul class="shuffle">
-          <li class="active">ALL</li>
-          <li>App</li>
-          <li>Photo</li>
-          <li>web</li>
-          <li>Print</li>
-        </ul>
-      </div>
-      <div class="imgs-container">
-        <div class="box">
-          <img
-            src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/shuffle-01.jpg"
-            alt=""
-          />
-          <div class="caption">
-            <h4>Awesome Image</h4>
-            <p>Photography</p>
-          </div>
+        <div class="specialHeaderCon">
+          <h2 class="special-heading">PORTFOLIO</h2>
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
+          </p>
         </div>
-        <div class="box">
-          <img
-            src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/shuffle-02.jpg"
-            alt=""
-          />
-          <div class="caption">
-            <h4>Awesome Image</h4>
-            <p>Photography</p>
-          </div>
+        <div class="shuffleCon">
+          <ul class="shuffle">
+            <li class="active">all</li>
+            <li>app</li>
+            <li>photo</li>
+            <li>web</li>
+            <li>print</li>
+          </ul>
         </div>
-        <div class="box">
-          <img
-            src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/shuffle-03.jpg"
-            alt=""
-          />
-          <div class="caption">
-            <h4>Awesome Image</h4>
-            <p>Photography</p>
-          </div>
-        </div>
-        <div class="box">
-          <img
-            src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/shuffle-04.jpg"
-            alt=""
-          />
-          <div class="caption">
-            <h4>Awesome Image</h4>
-            <p>Photography</p>
-          </div>
-        </div>
-        <div class="box">
-          <img
-            src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/shuffle-05.jpg"
-            alt=""
-          />
-          <div class="caption">
-            <h4>Awesome Image</h4>
-            <p>Photography</p>
-          </div>
-        </div>
-        <div class="box">
-          <img
-            src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/shuffle-06.jpg"
-            alt=""
-          />
-          <div class="caption">
-            <h4>Awesome Image</h4>
-            <p>Photography</p>
-          </div>
-        </div>
-        <div class="box">
-          <img
-            src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/shuffle-07.jpg"
-            alt=""
-          />
-          <div class="caption">
-            <h4>Awesome Image</h4>
-            <p>Photography</p>
-          </div>
-        </div>
-        <div class="box">
-          <img
-            src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/shuffle-08.jpg"
-            alt=""
-          />
-          <div class="caption">
-            <h4>Awesome Image</h4>
-            <p>Photography</p>
-          </div>
+        <div class="imgs-container">
+          <!-- <div class="box">
+            <img
+              src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/shuffle-01.jpg"
+              alt=""
+            />
+            <div class="caption">
+              <h4>Awesome Image</h4>
+              <p>Photography</p>
+            </div>
+          </div> -->
         </div>
       </div>
       <a class="more" href="">More</a>
@@ -253,10 +258,7 @@
     <!-- start video -->
     <div class="video" id="VIDEO">
       <video autoplay muted loop>
-        <source
-          src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/awesome-video.mp4"
-          type="video/mp4"
-        />
+        <source src="./vedoes/awesome-video.mp4" type="video/mp4" />
       </video>
       <div class="text">
         <h2>Super Awesome Video here</h2>
@@ -268,15 +270,14 @@
     <!-- start about -->
     <div class="about" id="ABOUT">
       <div class="container">
-        <h2 class="special-heading">ABOUT US</h2>
-        <p>
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-          Mauris blandit aliquet elit, eget tincidunt.
-        </p>
-        <img
-          src="https://myket.ir/innovative-teams/assets/images/banner.png"
-          alt=""
-        />
+        <div class="specialHeaderCon">
+          <h2 class="special-heading">ABOUT US</h2>
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
+          </p>
+        </div>
+        <img src="./images/about-img.png" alt="" />
       </div>
     </div>
     <!-- end about -->
@@ -285,22 +286,22 @@
       <div class="container">
         <div class="box">
           <i class="fas fa-mug-hot"></i>
-          <div class="number">1.236</div>
+          <div class="number" data-num="1236">0</div>
           <p>Coffee Drinks</p>
         </div>
         <div class="box">
           <i class="far fa-folder"></i>
-          <div class="number">256</div>
+          <div class="number" data-num="256">0</div>
           <p>Completed Projects</p>
         </div>
         <div class="box">
           <i class="far fa-envelope"></i>
-          <div class="number">1,743</div>
+          <div class="number" data-num="1743">0</div>
           <p>Mail Sent</p>
         </div>
         <div class="box">
           <i class="fas fa-trophy"></i>
-          <div class="number">17</div>
+          <div class="number" data-num="17">0</div>
           <p>Awards Received</p>
         </div>
       </div>
@@ -315,32 +316,66 @@
             Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
             Mauris blandit aliquet elit, eget tincidunt.
           </p>
-          <div class="content">
-            <img
-              src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/skills-01.jpg"
-              alt=""
-            />
-            <div class="text">
-              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-              Mauris blandit aliquet elit, eget tincidunt.
-              <p>John doe, CEO</p>
+          <div class="testi-slidesCon">
+            <div class="testiSlide">
+              <div class="content">
+                <img src="./images/avatar1.svg" alt="" />
+                <div class="text">
+                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                  Mauris blandit aliquet elit, eget tincidunt.
+                  <p>John doe, CEO</p>
+                </div>
+              </div>
+              <div class="content">
+                <img src="./images/avatar2.svg" alt="" />
+                <div class="text">
+                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                  Mauris blandit aliquet elit, eget tincidunt.
+                  <p>John doe, CEO</p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="content">
-            <img
-              src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/images/skills-02.jpg"
-              alt=""
-            />
-            <div class="text">
-              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-              Mauris blandit aliquet elit, eget tincidunt.
-              <p>John doe, CEO</p>
+            <div class="testiSlide">
+              <div class="content">
+                <img src="./images/avatar3.svg" alt="" />
+                <div class="text">
+                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                  Mauris blandit aliquet elit, eget tincidunt.
+                  <p>John doe, CEO</p>
+                </div>
+              </div>
+              <div class="content">
+                <img src="./images/avatar4.svg" alt="" />
+                <div class="text">
+                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                  Mauris blandit aliquet elit, eget tincidunt.
+                  <p>John doe, CEO</p>
+                </div>
+              </div>
+            </div>
+            <div class="testiSlide">
+              <div class="content">
+                <img src="./images/avatar5.svg" alt="" />
+                <div class="text">
+                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                  Mauris blandit aliquet elit, eget tincidunt.
+                  <p>John doe, CEO</p>
+                </div>
+              </div>
+              <div class="content">
+                <img src="./images/avatar6.svg" alt="" />
+                <div class="text">
+                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                  Mauris blandit aliquet elit, eget tincidunt.
+                  <p>John doe, CEO</p>
+                </div>
+              </div>
             </div>
           </div>
           <ul class="bullets">
-            <li></li>
-            <li class="active"></li>
-            <li></li>
+            <li data-index="-1"></li>
+            <li data-index="0" class="active"></li>
+            <li data-index="1"></li>
           </ul>
         </div>
         <div class="skills">
@@ -349,28 +384,30 @@
             Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
             Mauris blandit aliquet elit, eget tincidunt.
           </p>
-          <div class="prog-holder">
-            <h4>Adobe</h4>
-            <div class="prog">
-              <span style="width: 90%" data-progress="90%"></span>
+          <div class="progreses">
+            <div class="prog-holder">
+              <h4><span>Adobe</span> <span></span></h4>
+              <div class="prog">
+                <span data-progress="90%"></span>
+              </div>
             </div>
-          </div>
-          <div class="prog-holder">
-            <h4>HTML &amp; CSS</h4>
-            <div class="prog">
-              <span style="width: 93%" data-progress="93%"></span>
+            <div class="prog-holder">
+              <h4><span>Html &amp; Css</span> <span></span></h4>
+              <div class="prog">
+                <span data-progress="93%"></span>
+              </div>
             </div>
-          </div>
-          <div class="prog-holder">
-            <h4>JAVASCRIPT</h4>
-            <div class="prog">
-              <span style="width: 85%" data-progress="85%"></span>
+            <div class="prog-holder">
+              <h4><span>Javascript</span> <span></span></h4>
+              <div class="prog">
+                <span data-progress="85%"></span>
+              </div>
             </div>
-          </div>
-          <div class="prog-holder">
-            <h4>PHP</h4>
-            <div class="prog">
-              <span style="width: 87%" data-progress="87%"></span>
+            <div class="prog-holder">
+              <h4><span>Php</span> <span></span></h4>
+              <div class="prog">
+                <span data-progress="87%"></span>
+              </div>
             </div>
           </div>
         </div>
@@ -391,11 +428,13 @@
     <!-- Start Pricing -->
     <div class="pricing" id="PRICING">
       <div class="container">
-        <h2 class="special-heading">PRICING</h2>
-        <p>
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-          Mauris blandit aliquet elit, eget tincidunt.
-        </p>
+        <div class="specialHeaderCon">
+          <h2 class="special-heading">PRICING</h2>
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
+          </p>
+        </div>
         <div class="plans">
           <div class="plan">
             <div class="head">
@@ -481,11 +520,13 @@
     <!-- start contact -->
     <div class="contact" id="CONTACT">
       <div class="container">
-        <h2 class="special-heading">Contact Us</h2>
-        <p>
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-          Mauris blandit aliquet elit, eget tincidunt.
-        </p>
+        <div class="specialHeaderCon">
+          <h2 class="special-heading">Contact Us</h2>
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
+          </p>
+        </div>
         <div class="content">
           <form action="">
             <div class="label">
@@ -517,16 +558,21 @@
             <input type="submit" value="SEND MESSAGE" />
           </form>
           <div class="info">
+            <div class="second">
+              <h4>Where We Are</h4>
+              <iframe
+                style="border: 0"
+                loading="lazy"
+                allowfullscreen
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDRsALK6hyGupQ8573bo4lX45ilobKKims
+                &q=tacos Yoyo، GGW7+VCW, Tit Mellil, Morocco"
+              >
+              </iframe>
+            </div>
             <div class="first">
               <h4>Get In Touch</h4>
               <span class="phone">+00 123.456.789</span>
               <span class="phone">+00 123.456.789</span>
-            </div>
-            <div class="second">
-              <h4>Where We Are</h4>
-              <address>
-                Awesome Address 17<br />New York, NYC<br />123-4567-890<br />USA
-              </address>
             </div>
           </div>
         </div>
@@ -550,5 +596,6 @@
       </div>
     </div>
     <!-- end footer -->
+    <script src="main.js"></script>
   </body>
 </html>
